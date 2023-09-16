@@ -1,0 +1,228 @@
+.about {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    align-items: center;
+}
+
+.aboutHeadings {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutHeadings h2 {
+    color: var(--color-primary);
+}
+
+.aboutHeadings h6 {
+    font-size: 13px;
+}
+
+.aboutContainer {
+    display: flex;
+    width: 100vw;
+}
+
+.myImage {
+    border-radius: 13px;
+    width: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styleImg img {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(var(--color-bg), var(--color-primary));
+    border-radius: 13px;
+    z-index: 2;
+    transform: rotate(7deg);
+    transition: all 1s ease-in-out;
+}
+
+.myImage img:hover {
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+
+.styleImg {
+    height: 460px;
+    width: 340px;
+    /* padding: 1rem; */
+    margin-left: 5rem;
+    background: var(--color-primary);
+    border-radius: 13px;
+}
+
+.descriptionAboutMe {
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    margin-left: 5rem;
+    width: 70%;
+    /* border: 2px solid gray; */
+}
+
+.aboutBox {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+
+}
+
+.allAboutBox {
+    /* border: 2px solid green; */
+    padding: 1rem;
+    width: 80%;
+    /* border: 2px solid red; */
+}
+
+.aboutBox a {
+    height: 140px;
+    width: 140px;
+    background: var(--color-primary-varient);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+
+.aboutBox_desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.allAboutBox a .aboutBox_desc h5 {
+    font-size: 14px;
+}
+
+.allAboutBox a .aboutBox_desc h5 :nth-child(1) {
+    font-size: 20px;
+    color: var(--color-light);
+    font-weight: bold;
+}
+
+.aboutBox_desc :nth-child(3) {
+    font-weight: 300;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(135, 188, 231);
+}
+
+.writeAboutMe h6 {
+    /* border: 2px solid yellow; */
+    padding: 1rem;
+    font-size: 17px;
+    word-spacing: 0.2rem;
+}
+
+.aboutButton .btn {
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width:1040px) {
+    .allAboutBox {
+        width: 90%;
+    }
+
+    .styleImg {
+        width: 450px;
+        height: 400px;
+    }
+
+    .writeAboutMe h6 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .aboutContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .myImage {
+        width: 100%;
+
+    }
+
+    .writeAboutMe h6 {
+        font-size: 16px;
+    }
+
+    .styleImg {
+        width: 360px;
+        height: 300px;
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .descriptionAboutMe {
+        width: 100%;
+        margin: 0;
+    }
+
+    .aboutButton {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:590px) {
+
+    .allAboutBox {
+        width: 100%;
+
+    }
+
+    .allAboutBox {
+        padding: 0;
+    }
+
+    .styleImg {
+        width: 70vw;
+        height: 260px;
+    }
+
+    .aboutBox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .aboutBox {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+
+}
+
+@media screen and (max-width:390px) {
+    .aboutBox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+.aboutBox a:hover {
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    transition: all 400ms ease-in-out;
+}

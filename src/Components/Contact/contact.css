@@ -1,0 +1,133 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.allDetails {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin-top: 3rem;
+}
+
+.inputsSection form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_option {
+    margin: 1rem 0rem 1.6rem 0rem;
+    background: var(--color-primary-varient);
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+
+.inputsSection form input {
+    margin: 1rem;
+    background: none;
+    border: 2px solid var(--color-primary);
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.inputsSection form textarea {
+    margin: 1rem;
+    background: none;
+    border: 2px solid var(--color-primary);
+    height: 140px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 18px;
+}
+
+textarea::placeholder {
+    text-align: center;
+    font-size: 18px;
+}
+
+.inputsSection form .btn {
+    margin-left: 1rem;
+}
+
+.contact h2 {
+    color: var(--color-primary);
+}
+
+.contact_option a {
+    color: var(--color-primary);
+}
+
+.contact_option p {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 1090px) {
+    .allDetails {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .allDetails {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .allDetails {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+
+    .email {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .contact_option {
+        width: 50vw;
+    }
+
+    .inputsSection form textarea {
+        width: 90vw;
+    }
+
+    .inputsSection form input {
+        width: 90vw;
+    }
+}
+
+
+.contact_option:hover {
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    cursor: pointer;
+    transition: border 4s linear;
+}
