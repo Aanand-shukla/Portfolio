@@ -8,7 +8,7 @@ import {
   Nav,
   Portfolio,
 } from "./Index";
-import "./app.css";
+import "./App.css";
 const App = () => {
   return (
     <div className="app">
