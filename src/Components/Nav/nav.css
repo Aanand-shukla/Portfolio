@@ -1,7 +1,7 @@
 .nav {
     position: fixed;
     left: 50%;
-    top: 640px;
+    top: 650px;
     transform: translate(-50%, -50%);
     background: var(--color-primary-varient);
     padding: 0.5rem;
@@ -24,134 +24,56 @@
     padding: 0.1rem 0.4rem;
 }
 
-@media screen and (max-width:470px) {
-    .nav {
-        width: 63vw;
-        position: fixed;
-        top: 600px;
-        left: 52%;
-        transform: translate(-50%, -50%);
+
+@media screen and (max-width:560px) {
+    .nav .navbar a {
+        margin: 0rem 1rem;
     }
 
-    .navbar a {
-        margin: 1rem;
-    }
-
-}
-
-
-
-
-@media screen and (max-width: 800px) {
-    .nav {
-        width: 40vw;
-        position: fixed;
-        top: 640px;
-        left: 46%;
-        transform: translate(-50%, -50%);
-    }
-
-    .navbar a {
-        margin: 0.9rem 1.2rem;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .navbar a {
-        margin: 0.9rem 0.7rem;
-    }
-}
-
-@media screen and (max-width: 545px) {
     .nav {
         width: 60vw;
-        position: fixed;
-        top: 630px;
-        left: 52%;
-        transform: translate(-50%, -50%);
     }
 }
 
-@media screen and (max-width:490px) {
+@media screen and (max-width:457px) {
+    .nav .navbar a {
+        margin: 0rem 1rem;
+    }
+
     .nav {
         width: 70vw;
-        position: fixed;
-        top: 630px;
-        left: 52%;
-        transform: translate(-50%, -50%);
-    }
-
-    .navbar a {
-        margin: 0.9rem 1rem;
     }
 }
 
-@media screen and (max-width:490px) {
+@media screen and (max-width:450px) {
+    .nav .navbar a {
+        margin: 0rem 1rem;
+    }
+
     .nav {
         width: 70vw;
-        position: fixed;
-        top: 630px;
-        left: 52%;
-        transform: translate(-50%, -50%);
+        top: 600px;
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:390px) {
+    .nav .navbar a {
+        margin: 0rem 1rem;
+    }
+
     .nav {
         width: 80vw;
-        position: fixed;
-        top: 620px;
-
+        top: 530px;
     }
 }
 
-@media screen and (max-width:397px) {
+@media screen and (max-width:315px) {
+    .nav .navbar a {
+        margin: 0rem 1rem;
+    }
+
     .nav {
         width: 90vw;
-        position: fixed;
-        top: 500px;
-
-    }
-
-    .navbar a {
-        margin: 0.9rem 1.3rem;
-    }
-}
-
-@media screen and (max-width:363px) {
-    .navbar a {
-        margin: 0.9rem 1.1rem;
-    }
-}
-
-@media screen and (max-width:325px) {
-    .nav {
-        width: 93vw;
-        position: fixed;
-        top: 490px;
-
-    }
-
-    .navbar a {
-        margin: 0.9rem 1rem;
-    }
-}
-
-@media screen and (max-width:295px) {
-    .navbar a {
-        margin: 0.9rem 0.8rem;
-    }
-}
-
-@media screen and (max-width:384px) {
-    .nav {
-        width: 80vw;
-        position: fixed;
         top: 530px;
-
-    }
-
-    .navbar a {
-        margin: 0.9rem 1rem;
     }
 }
