@@ -67,13 +67,29 @@
     }
 }
 
-@media screen and (max-width:315px) {
+@media screen and (max-width:339px) {
     .nav .navbar a {
         margin: 0rem 1rem;
     }
 
     .nav {
-        width: 90vw;
+        width: 98vw;
         top: 530px;
+        margin: 0;
+    }
+
+    .navbar a {
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (max-width:396px) {
+    .nav .navbar a {
+        margin: 0rem 1rem;
+    }
+
+    .nav {
+        width: 80vw;
+        top: 528px;
     }
 }
